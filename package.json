@@ -1,0 +1,25 @@
+{
+  "name": "binary-data-decoder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "decode-binary": "node src/index.js",
+    "test": "node_modules/.bin/jest"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "engines": {
+    "node": "10.16.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}
